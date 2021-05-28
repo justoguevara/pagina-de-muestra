@@ -1,0 +1,43 @@
+function pagina_inicio(){
+
+	Apari = "tela";
+
+	a =
+	inicio
+	carros
+	motos
+	vicicletas
+	gente
+	estados
+	correo
+	otros
+	cosas
+	mas
+	cocinas
+	categorias
+
+	.mama -a > menu h > menu v
+	. > menu v
+	b += menu v
+	esq(b);
+
+	Cont = "gente, perro,gato";
+	b = menu h 
+	b += menu h 
+	b += menu v 
+	esq(b);
+
+	Cont = Esq + ",vida,alegria,";
+	b = menu("h");
+	esq(b);
+
+	Cont = "gente, perro,gato y gatas";
+	Cont += menu("v");
+	Cont += menu("h");
+	Cont += menu("v");
+	Cont += menu("v") + "," + menu("h") + ",perro";
+	b = menu("h");
+	esq(b);
+
+	proyectar("new");
+}

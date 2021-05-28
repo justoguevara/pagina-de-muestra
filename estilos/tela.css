@@ -1,0 +1,93 @@
+﻿ body{
+    font: 1em/1.7 "Century Gothic",Helvetica,Verdana,sans-serif;
+    background-image: url("../imagenes/png/fondo.png"); 
+    color: rgb(255,255,255);
+    margin: 0px;
+}
+
+
+.cuerpo{
+    align-content: center;
+    padding: 50px;
+}
+
+
+
+.tela{
+   border:1px;
+   border-style:solid;
+   border-color: rgba(255, 255, 255, 0.2);
+   border-radius: 7px;
+
+   background: rgba(0, 0, 0, 0.2);
+
+   display:flex;
+   flex-wrap: wrap;
+}
+
+
+.blo{
+   margin: 10px;
+   padding: 15px;
+}
+
+.ani{
+    transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+}
+
+
+.ele_item{
+   margin: 5px;
+   padding: 15px;
+   border-radius: 7px;
+   /*animacion*/
+   transition: all 0.2s linear 0s;
+   -moz-transition: all 0.2s linear 0s;
+   -webkit-transition: all 0.2s linear 0s;
+   -o-transition: all 0.2s linear 0s;
+}
+.ele_item:hover{
+   margin: 5px;
+   padding: 15px;
+    /*animacion*/
+   border-radius: 40px;
+   border: rgba(200,200,250,0.2) 1px solid;
+   background: rgba(100, 100, 150, 0.2);
+   transform: scale(1.00);
+}
+
+
+.texto_item{
+   margin: 1px; /* altura */
+   text-align: center;
+   text-transform: uppercase;
+}
+
+
+
+
+.blo_menu{
+   height: fit-content;
+   width: fit-content; 
+
+   margin: 10px;
+   padding: 0px;
+
+   border-radius: 13px;
+}
+
+.h{flex-direction: row;}
+.hd{justify-content: flex-end;} /* derecha */
+.hi{justify-content: flex-start;} /* hizquierda */
+.hc{justify-content: center;} /* centro */
+.ht{justify-content: center;} /* todo */
+.he{justify-content: space-between;} /* entre */
+
+.v{flex-direction: column;}
+.vd{align-items: flex-end;} /* derecha */
+.vi{align-items: flex-start;} /* hizquierda */
+.vc{align-items: center;} /* centro */
+.vt{align-items: stretch;} /* todo */

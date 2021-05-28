@@ -1,0 +1,43 @@
+﻿
+
+
+.ocre1{
+   font-size:10px;
+   font-family:Courier;
+   color: rgb(0, 0, 0);
+	
+   border:1px;
+   border-style:solid;
+   border-color: rgb(0, 0, 0);
+
+   background: rgb(205, 133, 63);
+  }
+
+.ocre2{
+   font-size:10px;
+   font-family:Courier;
+   color: rgb(0, 0, 0);
+	
+   border:1px;
+   border-style:solid;
+   border-color: rgb(0, 0, 0);
+
+   background: rgb(210, 180, 140);
+  }
+
+  
+
+.galeria{
+   font-size:10px;
+   font-family:Courier;
+   color: rgb(0, 0, 0);
+	
+   border:1px;
+   border-style:solid;
+   border-color: rgb(0, 0, 0);
+
+   background: rgb(200, 180, 250);
+
+   float: left;
+   margin: 5px;
+}
